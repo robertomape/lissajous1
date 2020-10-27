@@ -55,10 +55,10 @@ function asiganarvalores(ap, bp, rad1, rad2) {
 function verifyorder() {
     var ap = document.getElementById('a').value;
     var bp = document.getElementById('b').value;
-    var rad2 = document.getElementById('rad2').value;
-    var rad1 = document.getElementById('rad1').value;
+    var rad2 = document.getElementById('rad1').value;
+    var rad1 = document.getElementById('rad2').value;
 
-    c.clearRect(0, 0, innerWidth, innerHeight);
+    c.clearRect(0, 0, canvas.width, canvas.height);
 
     asiganarvalores(ap, bp, rad1, rad2);
     if (asiganarvalores(ap, bp, rad1, rad2) == 0) {
