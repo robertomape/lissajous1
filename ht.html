@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        canvas {
+            border: 1px solid black;
+            background: white;
+        }
+        
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>
+        Input the numbers to make lissajous figure:
+        <br /> Write: a
+        <input type="number" maxlength="3" name="value" id='a' min="0" /> b
+        <input type="number" maxlength="3" name="value2" id='b' min="0" /> grades
+        <input type="number" maxlength="3" name="value3" id='rad1' min="0" max="400" /> B(max 400)
+        <input type="number" maxlength="3" name="value3" id='rad2' min="0" max="400" />
+        <input type="button" value="submit" onclick="verifyorder()" />
+    </p>
+
+
+
+
+    <br></br>
+    <br></br>
+    <br></br>
+    <canvas></canvas>
+
+    <script src="app.js">
+    </script>
+
+</body>
+
+</html>
